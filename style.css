@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+}
+.modal-dialog{
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal-content{
+    width: 80%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+input::-webkit-input-placeholder{
+    color: #fff !important;
+}
